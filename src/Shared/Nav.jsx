@@ -6,7 +6,7 @@ import { useState } from "react"
 
 export const NavHeader = ({ text1, text2, text3, text4, text5 }) => {
 
-    const [toggleBurger, setToggleBurger] = useState(false)
+    const [toggleBurger, setToggleBurger] = useState(true)
 
     function Hamburger() {
         setToggleBurger(!toggleBurger)
@@ -14,17 +14,17 @@ export const NavHeader = ({ text1, text2, text3, text4, text5 }) => {
 
 
     return (
-        <nav className='flex lg:gap-[15rem] justify-center h-[4rem] pt-[1rem] xr:gap-[5rem] xr:w-[414px] sam:w-[360px] sam:gap-[4rem] pro:w-[428px] x:gap-[5rem] x:justify-center x:w-[375px] smm:w-[390px]'>
+        <nav className='flex lg:gap-[36rem] justify-center h-[4rem] pt-[1rem] xr:gap-[5rem] xr:w-[414px] sam:w-[360px] lg:w-[1347px] sam:gap-[4rem] pro:w-[428px] x:gap-[5rem] x:justify-center x:w-[375px] smm:w-[390px]'>
             <div className="w-[7rem]">
                 <Link to='/'><img src={NavLogo} alt="" /></Link>
             </div>
             <div className="">
-                <div onClick={Hamburger} className="w-[3rem] xr:ml-[7rem] x:ml-[7rem] sam:ml-[6rem]">
+                <div onClick={Hamburger} className="lg:hidden xr:w-[3rem] x:w-[3rem] sam:w-[3rem] xr:ml-[7rem] x:ml-[7rem] sam:ml-[6rem]">
                     <img src={Ham} alt="" />
                 </div>
                 {toggleBurger && (
                     <div className="xr:bg-[#13BCB3]  xr:h-[18rem] sam:h-[16rem] sam:bg-[#13BCB3] xr:w-[10rem] sam:w-[9rem] sam:rounded-[0.5rem] xr:rounded-[0.5rem] x:bg-[#13BCB3] smm:h-[17rem] smm:bg-[#13BCB3] x:rounded-[0.5rem] smm:mt-[0.3rem]">
-                        <div className="font-semibold flex gap-[2rem] pt-[0.5rem] xr:flex xr:flex-col x:flex x:flex-col sam:flex sam:flex-col sam:gap-[1.5rem]">
+                        <div className="font-semibold lg:flex gap-[2rem] pt-[0.5rem] xr:flex xr:flex-col x:flex x:flex-col sam:flex sam:flex-col sam:gap-[1.5rem]">
                             <Link to='/'>{text1}</Link>
                             <Link to='/Review'>{text2}</Link>
                             <Link to='/ReadReviews'>{text3}</Link>

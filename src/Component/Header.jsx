@@ -4,7 +4,7 @@ import { Heade } from "../Shared/Head"
 const Header = () => {
 
     return (
-        <div className="xr:w-[414px] xr:pt-[2rem] x:w-[375px] smm:w-[390px] pro:w-[428px] sam:w-[360px]">
+        <div className="xr:w-[414px] xr:pt-[2rem] x:w-[375px] smm:w-[390px] pro:w-[428px] sam:w-[360px] lg:w-[1345px]">
 
             {
                 HeadDetails.map((HeadDetail) => (<Heade {...HeadDetail} />))

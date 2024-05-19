@@ -13,11 +13,12 @@ export default {
         Bgg2:"url('/src/assets/ArticlesBg.png')",
       },
       screens: {
-        "xr":"414px",
-        "pro":"428px",
-        "x":"375px",
-        "smm":"390px",
-        "sam":"360px",
+        // "xr":"414px",
+        // "pro":"428px",
+        // "x":"375px",
+        // "smm":"390px",
+        //  "sam":"360px",
+        "lg":"1280px"
       }
     },
   },

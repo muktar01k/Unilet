@@ -31,7 +31,7 @@ const ReadReviews = () => {
         <div className="">
             <NavBar />
             <div>
-                <p className="text-[#13BCB3] text-center lg:mt-[6rem] text-[3.5rem] font-semibold xr:pt-[7rem] x:pt-[6rem] sam:pt-[6rem]">Read Reviews</p>
+                <p className="text-[#13BCB3] text-center lg:pt-[6rem] text-[3.5rem] font-semibold xr:pt-[7rem] x:pt-[6rem] sam:pt-[6rem]">Read Reviews</p>
             </div>
             <div className="flex justify-center lg:gap-[20rem] xr:gap-[2rem] xr:flex xr:flex-col x:flex x:flex-col sam:flex sam:flex-col ">
                 <div className=" x:ml-[3rem] xr:ml-[3rem] sam:ml-[2rem]">

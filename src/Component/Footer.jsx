@@ -9,13 +9,13 @@ import Facebook from '../assets/Facebook.png'
 const Footer = () => {
 
     return (
-        <footer className="xr:w-[414px] pro:w-[428px] x:w-[375px] smm:w-[390px] sam:w-[360px]">
-            <div className="h-[20rem] flex bg-[#FBFBFB] justify-center lg:pt-[2rem] lg:gap-[7rem] xr:gap-[2rem] xr:flex xr:flex-col xr:h-[45rem] xr:pt-[3rem] xr:pt-[2rem] x:gap-[2rem] x:flex x:flex-col x:h-[45rem] x:pt-[3rem] smm:mt-[2rem] sam:flex sam:flex-col sam:h-[45rem] sam:pt-[3rem]">
+        <footer className="xr:w-[414px] pro:w-[428px] x:w-[375px] smm:w-[390px] sam:w-[360px] lg:w-[1345px]">
+            <div className="lg:h-[22rem] flex bg-[#FBFBFB] justify-center lg:pt-[2rem] lg:gap-[5rem] xr:gap-[2rem] xr:flex xr:flex-col xr:h-[45rem] xr:pt-[3rem] xr:pt-[2rem] x:gap-[2rem] x:flex x:flex-col x:h-[45rem] x:pt-[3rem] smm:mt-[2rem] sam:flex sam:flex-col sam:h-[45rem] sam:pt-[3rem] lg:mt-[2rem]">
                 <div className="w-[15rem] xr:w-[5em] x:w-[9rem] sam:w-[8rem]">
                     <img className='xr:ml-[10rem] x:ml-[8rem] sam:ml-[7rem]' src={Logo} alt="" />
                     <p className='w-[15rem] mt-[1rem] text-left xr:text-center xr:ml-[5rem] x:text-center x:ml-[5rem] sam:ml-[5rem]'>we're shutting the door on second-rate student housing</p>
                 </div>
-                <div className="xr:flex xr:justify-center xr:gap-[1.5rem] pro:gap-[1.9rem] x:flex x:justify-center x:gap-[1rem] sam:flex sam:justify-center sam:gap-[1rem]">
+                <div className="xr:flex xr:justify-center xr:gap-[1.5rem] pro:gap-[1.9rem] x:flex x:justify-center x:gap-[1rem] sam:flex sam:justify-center sam:gap-[1rem] lg:flex lg:gap-[4rem]">
                     <div className="pt-[1rem]">
                         <p className='font-bold text-[#13BCB3] text-xl'>Qulick Links</p>
                         <p className='pt-[0.5rem]'>Reaview a property</p>

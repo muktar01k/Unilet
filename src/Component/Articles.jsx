@@ -11,7 +11,10 @@ import Footer from "./Footer"
 
 
 
+
 export const Articles = () => {
+
+
     return (
         <div className="">
             <div className="">
@@ -20,7 +23,7 @@ export const Articles = () => {
             <div className="bg-Bgg2 bg-no-repeat h-[30rem] pt-[4rem] smm:pt-[10rem] sam:pt-[10rem]">
                 <p className="font-bold text-center text-[white] text-[3rem]">Our Articles</p>
                 <div className="font-semibold text-center text-[white] mt-[1rem]">
-                    <Link to='/'>Home </Link> /<Link to='/Articles'>Articles</Link>
+                    <Link to='/'>Home </Link> /<Link to='/InnerArticles'>Articles</Link>
                 </div>
             </div>
 
@@ -107,6 +110,9 @@ export const Articles = () => {
                     </div>
                 </div>
             </div>
+
+          
+
             <Footer/>
         </div>
     )

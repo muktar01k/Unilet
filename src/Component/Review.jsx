@@ -30,7 +30,7 @@ const Review = () => {
 
                  <marquee>
                     <div className="xr:flex xr:h-[20rem] x:flex x:h-[20rem]">
-                    <div className="flex justify-center gap-[3rem] mt-[3rem] xr:gap-[2rem] mt-[2rem] xr:flex ">
+                    <div className="flex justify-center lg:gap-[5rem] mt-[3rem] xr:gap-[2rem] mt-[2rem] xr:flex ">
                         <div className="bg-white lg:h-[15rem] lg:w-[15rem] shadow-2xl rounded-lg xr:w-[15rem]">
                             <img className='w-[15rem]' src={RealHouse} alt="" />
                             <p className='font-semibold pl-[1rem]'>123 That Road Bournemouth</p>

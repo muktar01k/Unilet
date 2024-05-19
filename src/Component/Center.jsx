@@ -9,7 +9,7 @@ const Center = () => {
 
     return (
         <div className="">
-            <div className="text-center xr:pt-[8rem] x:mt-[8rem] sam:mt-[8rem]">
+            <div className="text-center xr:pt-[8rem] x:mt-[8rem] sam:mt-[8rem] lg:mt-[2rem]">
                 <p className="font-bold text-[#13BCB3] text-[2rem]">Recently Reviewed</p>
                 <p className="font-semibold">More than 1000 clients who are happy with Us. Are You Next One?</p>
             </div>
